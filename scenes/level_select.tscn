@@ -1,0 +1,507 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://scripts/level_select.gd" type="Script" id=1]
+[ext_resource path="res://theme/milky_way.tex" type="Texture" id=2]
+[ext_resource path="res://font/raidercrusaderbevel.fnt" type="BitmapFont" id=3]
+
+[node name="level_select" type="Control"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+script/script = ExtResource( 1 )
+
+[node name="background" type="Sprite" parent="."]
+
+transform/scale = Vector2( 0.235717, 0.206587 )
+texture = ExtResource( 2 )
+centered = false
+__meta__ = { "_edit_lock_":true }
+
+[node name="nebula_simulator" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 400.0
+margin/top = 80.0
+margin/right = 549.0
+margin/bottom = 103.0
+custom_fonts/font = ExtResource( 3 )
+text = "Nebula Simulator"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+__meta__ = { "_edit_lock_":true }
+
+[node name="01_cats_paw_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 140.0
+margin/right = 103.0
+margin/bottom = 169.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Cat\'s Paw Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="02_orion_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 175.0
+margin/right = 136.0
+margin/bottom = 204.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Orion Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="03_eso_378_1_378_1" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 210.0
+margin/right = 136.0
+margin/bottom = 239.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Planetary Nebula ESO 378-1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="04_prawn_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 245.0
+margin/right = 190.0
+margin/bottom = 274.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Prawn Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="05_medusa_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 280.0
+margin/right = 197.0
+margin/bottom = 309.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Medusa Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="06_dark_nebula_barnard_59" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 315.0
+margin/right = 276.0
+margin/bottom = 344.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Dark Nebula Barnard 59"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="07_platenary_nebula_fleming_11" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 350.0
+margin/right = 304.0
+margin/bottom = 379.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "planetary Nebula Fleming 1"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="08_horse_head_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 385.0
+margin/right = 230.0
+margin/bottom = 414.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Horse Head Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="09_omega_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 420.0
+margin/right = 187.0
+margin/bottom = 449.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Omega Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="10_carina_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 455.0
+margin/right = 193.0
+margin/bottom = 484.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Carina Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="11_eagle_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 140.0
+margin/right = 624.0
+margin/bottom = 169.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Eagle Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="12_dumbbell_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 175.0
+margin/right = 656.0
+margin/bottom = 204.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Dumbbell Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="13_star_forming_region_messier" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 210.0
+margin/right = 752.0
+margin/bottom = 239.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Star-forming region Messier"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="14_flame_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 245.0
+margin/right = 627.0
+margin/bottom = 274.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Flame Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="15_cometary_globule_cg4" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 280.0
+margin/right = 700.0
+margin/bottom = 309.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Cometary globule CG4"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="16_pencil_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 315.0
+margin/right = 630.0
+margin/bottom = 344.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Pencil Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="17_seagull_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 350.0
+margin/right = 719.0
+margin/bottom = 379.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Seagull Nebula (IC 2177)"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="18_chicken_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 385.0
+margin/right = 640.0
+margin/bottom = 414.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Chicken Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="19_saturn_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 420.0
+margin/right = 636.0
+margin/bottom = 449.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Saturn Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="20_tarantula_nebula" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 500.0
+margin/top = 455.0
+margin/right = 665.0
+margin/bottom = 484.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Tarantula Nebula"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[node name="back_to_menu" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 800.0
+margin/top = 80.0
+margin/right = 924.0
+margin/bottom = 109.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_hover = Color( 0.552873, 0.960938, 0.011261, 1 )
+custom_colors/font_color_pressed = Color( 0.988281, 0.0115814, 0.0115814, 1 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Back to Menu"
+flat = true
+__meta__ = { "_edit_lock_":true }
+
+[connection signal="pressed" from="01_cats_paw_nebula" to="." method="_on_01_cats_paw_nebula_pressed"]
+
+[connection signal="pressed" from="02_orion_nebula" to="." method="_on_02_orion_nebula_pressed"]
+
+[connection signal="pressed" from="03_eso_378_1_378_1" to="." method="_on_03_eso_378_1_378_1_pressed"]
+
+[connection signal="pressed" from="04_prawn_nebula" to="." method="_on_04_prawn_nebula_pressed"]
+
+[connection signal="pressed" from="05_medusa_nebula" to="." method="_on_05_medusa_nebula_pressed"]
+
+[connection signal="pressed" from="06_dark_nebula_barnard_59" to="." method="_on_06_dark_nebula_barnard_59_pressed"]
+
+[connection signal="pressed" from="07_platenary_nebula_fleming_11" to="." method="_on_07_platenary_nebula_fleming_11_pressed"]
+
+[connection signal="pressed" from="08_horse_head_nebula" to="." method="_on_08_horse_head_nebula_pressed"]
+
+[connection signal="pressed" from="09_omega_nebula" to="." method="_on_09_omega_nebula_pressed"]
+
+[connection signal="pressed" from="10_carina_nebula" to="." method="_on_10_carina_nebula_pressed"]
+
+[connection signal="pressed" from="11_eagle_nebula" to="." method="_on_11_eagle_nebula_pressed"]
+
+[connection signal="pressed" from="12_dumbbell_nebula" to="." method="_on_12_dumbbell_nebula_pressed"]
+
+[connection signal="pressed" from="13_star_forming_region_messier" to="." method="_on_13_star_forming_region_messier_pressed"]
+
+[connection signal="pressed" from="14_flame_nebula" to="." method="_on_14_flame_nebula_pressed"]
+
+[connection signal="pressed" from="15_cometary_globule_cg4" to="." method="_on_15_cometary_globule_cg4_pressed"]
+
+[connection signal="pressed" from="16_pencil_nebula" to="." method="_on_16_pencil_nebula_pressed"]
+
+[connection signal="pressed" from="17_seagull_nebula" to="." method="_on_17_seagull_nebula_pressed"]
+
+[connection signal="pressed" from="18_chicken_nebula" to="." method="_on_18_chicken_nebula_pressed"]
+
+[connection signal="pressed" from="19_saturn_nebula" to="." method="_on_19_saturn_nebula_pressed"]
+
+[connection signal="pressed" from="20_tarantula_nebula" to="." method="_on_20_tarantula_nebula_pressed"]
+
+[connection signal="pressed" from="back_to_menu" to="." method="_on_back_to_menu_pressed"]
+
+
